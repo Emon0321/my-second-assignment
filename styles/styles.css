@@ -10,6 +10,8 @@
 
 header{
     margin-top: 63px;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
 nav{
@@ -33,25 +35,25 @@ nav{
 
 .nav-title{
     color: #131318;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 800;
 }
 
 .nav-title-span{
     color: #FF5400;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 800;
 }
 
 .nav-list{
     color: #424247;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
 }
 
 .nav-home-span{
     color: #FF5400;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
 }
 
@@ -69,4 +71,127 @@ nav li{
 nav li a{
     text-decoration: none;
     color: #424247;
+}
+
+/* van section finish */
+
+/* banner section started */
+
+.banner-section{
+    background-image: url('../Images/banner.png');
+    max-width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.banner-background-shadow{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+.banner-text{
+    text-align: center;
+    border: 2px solid tomato;
+    width: 100%;
+    
+    
+}
+
+.banner-h3{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.banner-p{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.form{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.50);
+    padding: 16px 84px 16px 16px;
+}
+
+/* main section started */
+
+main{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* popular tour section */
+
+.popular-tour-section{
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+}
+
+.popular-h3{
+    color: #131318;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.popular-p1, .popular-p2{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.popular-ul{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+.popular-p2{
+    color: #5A5A5D;
+}
+
+.popular-btn{
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 14px 34px 13px 35px;
+}
+
+.popular-igm-div img{
+    width: 100%;
+}
+
+/* responsive styles small device */
+
+@media screen and (max-width:600px) {
+
+    .popular-tour-section{
+        flex-direction: column;
+        margin-top: 24px;
+        font-size: 1rem;
+    }
+
+    .popular-btn{
+        margin-bottom: 24px;
+    }
+    
 }
