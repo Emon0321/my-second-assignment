@@ -244,7 +244,8 @@ main{
 }
 
 .row1-img2{
-    width: 50%;
+    width: 50%; 
+    /*  */
 }
 
 /* ========================= */
@@ -294,6 +295,168 @@ main{
     width: 60%;
 }
 
+/* choose section start */
+
+
+.choose-section{
+    margin-top: 100px;
+}
+
+/* chose title section */
+
+.chose-title-section{
+
+    text-align: center;
+    margin: 0 auto;
+}
+
+.chose-title-h3{
+    color: #131318;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.chose-ttle-p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+/* chose subsection */
+
+
+.chose-subsec1{
+
+    display: flex;
+    margin-top: 48px;
+    gap: 24px;
+    width: 100%;
+
+}
+
+
+/* chose subsec1 */
+/* ==================== */
+.subsec1-hotel{
+    
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 50%;
+    margin-bottom: 24px;
+}
+
+.subsec1-hotel >img{
+    width: 64px;
+    height: 64px;
+    padding: 32px 477px 32px 32px;
+}
+
+.subsec1-h3{
+    color: #131318;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 32px;
+    
+}
+
+.subsec1-p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    padding-left: 32px;
+}
+/* =============================== */
+
+.subsec1-service{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 50%;
+    margin-bottom: 24px;
+}
+
+.subsec1-service >img{
+
+    width: 64px;
+    height: 64px;
+    padding: 32px 477px 32px 32px;
+
+}
+
+.service-h3{
+    color: #131318;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 32px;
+}
+
+
+.service-p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    padding-left: 32px;
+}
+/* ============================ */
+
+.subsec2-main{
+    max-width: 573px;
+    text-align: center;
+    margin: 0 auto;
+}
+    
+
+.subsec1-bestprice{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    
+    
+}
+
+.subsec1-bestprice >img{
+
+    width: 64px;
+    height: 64px;
+    padding: 32px 477px 32px 32px;
+}
+
+.bestprice-h3{
+
+    color: #131318;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 32px;
+    padding-right: 300px;
+}
+
+.bestprice-p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    padding-left: 32px;
+    padding-right: 55px;
+    text-align: left;
+}
+
+
 
 
 
@@ -323,4 +486,48 @@ main{
         margin-bottom: 24px;
     }
     
+    nav{
+        flex-direction: column;
+    }
+
+    .destination-p{
+        width: 309px;
+        margin: 0 auto;
+    }
+
+    /* row1 */
+    .img-row1{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .row1-img1{
+        
+        width: 100%;
+    }
+
+    .row1-img2{
+        width: 100%;
+    }
+
+    /* row 2 */
+
+    .img-row2-main{
+        flex-direction: column;
+    }
+
+    /* chose use section */
+
+    .chose-subsec1{
+        flex-direction: column;
+    }
+
+    .subsec1-hotel{
+        width: 100%;
+    }
+
+    .subsec1-service{
+        width: 100%;
+    }
+
 }
