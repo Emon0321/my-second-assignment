@@ -23,6 +23,7 @@ header{
     margin-top: 63px;
     max-width: 1170px;
     margin: 0 auto;
+    margin-top: 52px;
 }
 
 nav{
@@ -88,6 +89,8 @@ nav li a{
 
 /* banner section started */
 
+
+
 .banner-section{
     background-image: url('../Images/banner.png');
     max-width: 1170px;
@@ -95,43 +98,105 @@ nav li a{
     border-radius: 16px;
     display: flex;
     justify-content: center;
+    margin-top: 50px;
    
 }
 
-.banner-background-shadow{
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+.banner-item{
+    padding-top: 100px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
-.banner-text{
+.banner-section p{
+
+    color: #fff;
     text-align: center;
-    border: 2px solid tomato;
-    width: 100%;
-    
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.ban-input{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 12px;
+    margin-top: 20px;
     
 }
 
-.banner-h3{
+.ban-input .text{
+
+    width: 150px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #fff;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    width: 145px;
+
+}
+
+.select{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #fff;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    width: 150px;
+}
+
+.banner-btn{
+    width: 150px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #fff;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    width: 150px;
+
+}
+
+.item{
+    text-align: center;
+    align-items: center;
+}
+
+.banner-title-text{
     color: #FFF;
+    font-family: Mulish;
     font-size: 4rem;
+    font-style: normal;
     font-weight: 800;
+    line-height: normal;
     margin-bottom: 24px;
 }
 
-.banner-p{
-    color: #FFF;
-    font-size: 1rem;
-    font-weight: 400;
-    margin-top: 0px;
-}
 
-.form{
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.30);
-    font-size: 1rem;
-    font-weight: 400;
-    color: rgba(19, 19, 24, 0.50);
-    padding: 16px 84px 16px 16px;
-}
+
+
+
+
+
 
 /* main section started */
 
@@ -228,6 +293,13 @@ main{
     margin-top: 48px;
 }
 
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
 .img-row1{
     
     margin-bottom: 24px;
@@ -235,6 +307,7 @@ main{
     margin-top: 24px;
     gap: 24px;
     max-height: 300px;
+    width: 100%;
     
 }
 
@@ -257,6 +330,7 @@ main{
     margin-top: 24px;
     gap: 24px;
     max-height: 286px;
+    width: 100%;
     
 }
 
@@ -281,9 +355,10 @@ main{
 
 .img-row3{
     display: flex;
-    margin-top: 24px;
+    margin-top: 24px;  
     gap: 24px;
     max-height: 300px;
+    width: 100%;
 }
 
 .row3-div1{
@@ -679,6 +754,10 @@ footer{
 
 @media screen and (max-width:600px) {
 
+    /* banner section */
+
+
+
     .popular-tour-section{
         flex-direction: column;
         margin-top: 24px;
@@ -693,36 +772,88 @@ footer{
         flex-direction: column;
     }
 
+    /* destination section */
+
     .destination-p{
         width: 309px;
         margin: 0 auto;
     }
 
-    /* row1 */
+    /* destination section image */
+
+    /* img-row-1 */
+    
     .img-row1{
         flex-direction: column;
-        height: auto;
+        margin-bottom: 50px;
     }
 
     .row1-img1{
-        
-        width: 100%;
+         width: 100%; 
     }
 
     .row1-img2{
         width: 100%;
     }
 
-    /* row 2 */
+    /* img-row-1 finish */
+
+    /* img-row2-main */
 
     .img-row2-main{
         flex-direction: column;
+        margin-top: 380px;
     }
+
+    .row2-img1{
+        width: 100%;
+        height: 300px;
+    }
+
+    .row2-img2{
+        width: 100%;
+        height: 300px;
+    }
+
+    .row2-img3{
+        width: 100%;
+        height: 300px;
+    }
+
+
+
+    /* img-row2-main finish */
+
+    /* img-row3 started */
+
+    .img-row3{
+        flex-direction: column;
+        margin-top: 690px;
+    }
+
+    .row3-div1{
+        width: 100%;
+        height: 300px;
+    }
+
+    .row3-div2{
+        width: 100%;
+
+    }
+
+    /* img-row3 finish */
+
+    
 
     /* chose use section */
 
+    .choose-section{
+        margin-top: 350px;
+    }
+
     .chose-subsec1{
         flex-direction: column;
+        
     }
 
     .subsec1-hotel{
@@ -731,6 +862,12 @@ footer{
 
     .subsec1-service{
         width: 100%;
+    }
+
+    /* footer section */
+
+    .footer-section{
+        padding: 20px;
     }
 
 }
